@@ -1,0 +1,22 @@
+[Event "Rated Rapid game"]
+[Site "https://lichess.org/0SBF4fmC"]
+[Date "2021.01.01"]
+[White "PAULITOMOSQUITO"]
+[Black "chekov"]
+[Result "1-0"]
+[UTCDate "2021.01.01"]
+[UTCTime "22:27:51"]
+[WhiteElo "1227"]
+[BlackElo "1226"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-9"]
+[Variant "Standard"]
+[TimeControl "600+5"]
+[ECO "C10"]
+[Opening "French Defense: Paulsen Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%clk 0:10:03] } d5 { [%clk 0:10:04] } 2. Nc3 { [%clk 0:09:52] } e6 { [%clk 0:10:01] } 3. d4 { [%clk 0:09:53] } { C10 French Defense: Paulsen Variation } f5 { [%clk 0:10:03] } 4. Bd3 { [%clk 0:09:26] } fxe4 { [%clk 0:10:01] } 5. Be2 { [%clk 0:09:24] } Bb4 { [%clk 0:10:03] } 6. Bd2 { [%clk 0:08:56] } Bxc3 { [%clk 0:10:05] } 7. Bxc3 { [%clk 0:09:00] } Qg5 { [%clk 0:10:10] } 8. f3 { [%clk 0:08:50] } Qxg2 { [%clk 0:10:12] } 9. fxe4 { [%clk 0:08:06] } dxe4 { [%clk 0:10:05] } 10. Bh5+ { [%clk 0:08:02] } g6 { [%clk 0:10:07] } 11. Bf3 { [%clk 0:07:50] } exf3 { [%clk 0:10:09] } 12. Qxf3 { [%clk 0:07:53] } Qxc2 { [%clk 0:10:06] } 13. Ne2 { [%clk 0:07:06] } Nc6 { [%clk 0:09:58] } 14. O-O { [%clk 0:07:07] } e5 { [%clk 0:09:37] } 15. Qf8+ { [%clk 0:06:40] } Kd7 { [%clk 0:09:32] } 16. Rf7+ { [%clk 0:06:35] } Nge7 { [%clk 0:09:21] } 17. Rxe7+ { [%clk 0:06:29] } Nxe7 { [%clk 0:09:21] } 18. Qxh8 { [%clk 0:06:33] } Qxe2 { [%clk 0:09:19] } 19. Re1 { [%clk 0:06:30] } Qg4+ { [%clk 0:09:15] } 20. Kf1 { [%clk 0:06:25] } Qf5+ { [%clk 0:09:08] } 21. Kg1 { [%clk 0:06:23] } e4 { [%clk 0:08:49] } 22. Qxh7 { [%clk 0:06:20] } e3 { [%clk 0:08:45] } 23. Rxe3 { [%clk 0:06:19] } Qg5+ { [%clk 0:08:37] } 24. Kf2 { [%clk 0:06:21] } Qf4+ { [%clk 0:08:33] } 25. Ke2 { [%clk 0:06:24] } Qg4+ { [%clk 0:08:23] } 26. Kd3 { [%clk 0:06:25] } Qd1+ { [%clk 0:08:18] } 27. Kc4 { [%clk 0:06:25] } b5+ { [%clk 0:07:30] } 28. Kxb5 { [%clk 0:05:39] } a6+ { [%clk 0:07:17] } 29. Kc5 { [%clk 0:05:38] } Qa4 { [%clk 0:07:04] } 30. Qxe7# { [%clk 0:05:34] } { White wins by checkmate. } 1-0
+
+
