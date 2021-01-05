@@ -39,10 +39,6 @@ if args.beats_per_minute:
 else:
     tempo = 100
 # MIDI and Chess Conversion variables 
-#minor = False #use a major or a minor scale? 
-#ticksperSec = 1 #number of ticks per in game second, if 15, each in game second is a 1/256 note
-#tempo = 100 #tempo in bpm, each in game second will last (tickspersec/ticksperbeat) / (tempo/60) seconds. So 1/16 for a second with default parameters.
-#tone = 'C' #Key signature
 ticks = 960 #number of ticks per beat
 time = 0 #time starts at 0 ticks
 track = 0 #MIDI format 1 
