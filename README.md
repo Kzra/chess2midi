@@ -24,7 +24,7 @@ The algorithm is written in Python 3.6 and requires the following additional Pyt
 python chess2midi.py [pgn_file] [output_midi] -tps -bpm -key -minor
 ```
 **Positional arguments:** <br>
-```[pgn_file]```: the input pgn, must be an annotated pgn with clock times for both players. Download directly from lichess.com by viewing a game in the analysis board and clicking the "FEN & PGN" tab at the bottom of the page. An example PGN is included in the directory. <br> <br>
+```[pgn_file]```: the input pgn, must be an annotated pgn with clock times for both players. Download directly from lichess.org by viewing a game in the analysis board and clicking the "FEN & PGN" tab at the bottom of the page. An example PGN is included in the directory. <br> <br>
 ```[output_MIDI]```: the name of the output MIDI file to write. <br> <br>
 **Optional arguments:** <br>
 ```-tps```: ticks per second (integer between 1-120), the number of ticks in the MIDI file assigned to an in game second. Lower numbers will shorten the spacing between notes whilst preserving relative differences (default 15). There are 960 ticks per 1/4 note in the MIDI file. <br> <br>
