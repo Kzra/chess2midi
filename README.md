@@ -10,9 +10,10 @@ The algorithm works as follows: <br>
 5. If a move leads to a capture the volume of the note is set as high (random MIDI value between 60 and 100), else it is low-mid (random MIDI value between 30 - 90). 
 
 **Dependencies/Acknowledgements**<br>
-The algorithm is written in Python 3.6 and requires two additional Python libraries to work. 
+The algorithm is written in Python 3.6 and requires the following additional Python libraries to work. 
 * [python-chess](https://github.com/niklasf/python-chess) : this is used to parse the PGN file. 
 * [MIDIUtil](https://github.com/MarkCWirt/MIDIUtil) : this is used to create the MIDI file. 
+* [NumPy](https://numpy.org) : this is used for array manipulation. 
 
 **Usage:**
 ```bash
@@ -22,7 +23,7 @@ python chess2midi.py [pgn_file] [output_midi] -tps -bpm -key -minor
 ```[pgn_file]```: the input pgn, must be an annotated pgn with clock times for both players. Download directly from lichess.com by viewing a game in the analysis board and clicking the "FEN & PGN" tab at the bottom of the page. <br> <br>
 ```[output_MIDI]```: the name of the output MIDI file to write. <br> <br>
 **Optional arguments:** <br>
-```-tps```: ticks per second (integer between 1-120), the number of ticks in the MIDI file assigned to an in game second. Lower numbers will shorten the spacing between notes whilst preserving relative differences (default 15).  <br> <br>
+```-tps```: ticks per second (integer between 1-120), the number of ticks in the MIDI file assigned to an in game second. Lower numbers will shorten the spacing between notes whilst preserving relative differences (default 15). There are 960 ticks per 1/4 note in the MIDI file. <br> <br>
 ```-bpm```: beats per minute (integer), the beats per minute the MIDI file will play back at (default 100). <br> <br>
 ```-key```: key signature (char), the key signature of the MIDI file (default C). If required must be written with #s e.g. (A# not Bb). <br> <br>
 ```-minor```: minor key (char), if any character is passed the harmonic minor scale will be used to define diatonic notes (default major).  <br> <br>
@@ -30,6 +31,10 @@ python chess2midi.py [pgn_file] [output_midi] -tps -bpm -key -minor
 ```bash
 python chess2midi.py [example1.pgn] [example1.mid] -tps 1 -bpm 60 -key B
 ```
+Convert example1.pgn to example1.mid where each in game second accounts for 1 tick in the MIDI file and the file will play back at 60 bpm. Use a B major scale to define the diatonic (i.e. non check/checkmate) notes.  
+
 ```bash
 python chess2midi.py [example2.pgn] [example2.mid] -tps 20 -bpm 100 -minor T
 ```
+
+Convert example2.pgn to example2.mid where each in game second accounts for 20 ticks in the MIDI file and the file will play back at 100 bpm. Use a C minor scale to define the diatonic (i.e. non check/checkmate) notes. 
