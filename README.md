@@ -1,6 +1,8 @@
 # chess2midi
 A python algorithm that converts chess games (in annotated PGN) to MIDI.
 
+Example #1 : https://www.youtube.com/watch?v=TBQJtroDKkk
+
 **Method** <br>
 The algorithm works as follows: <br>
 1. Whenever a move is made the column position (A-H) and row position(1-8) are used to sound a note from the chosen scale (default C major). The column position determines the note in the scale (e.g. col A = C, col B = D, ..., col G = B, col H = C) and the row position determines the octave (e.g. a5 = middle C, a1 = middle C - 4 octaves, a8 = middle C + 3 octaves).
